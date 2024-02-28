@@ -1,0 +1,27 @@
+name: oriole
+description: "The purpose of creating this routing library is to combine the functionalities of Flutter_Modular and Qlevar_Router libraries, providing a more powerful and flexible solution for route management. "
+version: 0.0.1
+repository: https://github.com/GitOfJason/oriole
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  auto_injector: ^2.0.2
+  flutter_web_plugins:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+topics:
+  - navigation
+  - router
+  - modular-router
+  - nested-routes
+  - deep-linking
